@@ -1,0 +1,13 @@
+Source: ros-kinetic-rr-openrover-driver
+Section: misc
+Priority: extra
+Maintainer: Jack Kilian <jack@digilabs.io>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: http://ros.org/wiki/rr_openrover_driver
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rr-openrover-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-joy, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-twist-mux
+Description: Provides an interface between ros and Rover Robotics rover hardware.
+ Inputs to rr_openrover_driver include emergency stop and velocity commands. It outputs diagnostic data such as encoder readings and battery charge.

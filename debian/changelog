@@ -1,0 +1,92 @@
+ros-kinetic-rr-openrover-driver (0.7.2-1xenial) xenial; urgency=high
+
+  * Changed name to rr_openrover_drive from rr_openrover_basic
+  * Refactored openrover_driver to accept Twist msgs instead of TwistStamped msgs
+
+ -- Jack Kilian <jack@digilabs.io>  Thu, 18 Jul 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.7.1-1xenial) xenial; urgency=high
+
+  * Changed default port to /dev/rover
+  * Changed CMAke to install diagnostics.py
+
+ -- Jack Kilian <jack@digilabs.io>  Mon, 24 Jun 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.7.0-1xenial) xenial; urgency=high
+
+  * Fixed issue #12
+  * Added fan speed control
+  * Added launch file for 2wd teleop
+  * Changed default fast rate data to 10hz
+
+ -- Jack Kilian <jack@digilabs.io>  Mon, 13 May 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.6.2-1xenial) xenial; urgency=high
+
+  * Fixed issue #13
+
+ -- Jack Kilian <jack@digilabs.io>  Wed, 23 Jan 2019 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.6.1-1xenial) xenial; urgency=high
+
+  * Migrated release repo from /roverrobotics to /roverrobotics-release
+  * Changed rosparam slippage_factor to traction_factor
+  * Changed default weight to 20.0 lbs
+  * Changed default drive type to 4WD
+  * Changed default closed_loop_control_on to false
+  * Removed low_speed_mode
+
+ -- Jack Kilian <jack@digilabs.io>  Thu, 13 Dec 2018 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.6.0-1xenial) xenial; urgency=high
+
+  * Added ROS topic /rr_openrover_driver/battery_status_a
+  * Added ROS topic /rr_openrover_driver/battery_status_b
+
+ -- Jack Kilian <jack@digilabs.io>  Sat, 08 Dec 2018 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.5.1-1xenial) xenial; urgency=high
+
+  * Added ROS topic /rr_openrover_driver/motor_speeds_commanded
+  * Added ROS topic /rr_openrover_driver/charging
+  * Fixed issue #8
+
+ -- Jack Kilian <jack@digilabs.io>  Fri, 07 Dec 2018 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.5.0-1xenial) xenial; urgency=high
+
+  * Added ROS param for 'odom covariances'
+  * Added ROS param for 'slippage factor'
+  * Added diagnostics node
+  * Fixed issue #1
+
+ -- Jack Kilian <jack@digilabs.io>  Fri, 07 Dec 2018 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.4.0-1xenial) xenial; urgency=high
+
+  * Added ROS param 'drive_type'
+
+ -- Jack Kilian <jack@digilabs.io>  Mon, 23 Jul 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.3.0-1xenial) xenial; urgency=high
+
+  * Added ROS topic /rr_openrover_driver/odom_encoder
+  * Added 2nd maintainer to package.xml and URL to wiki
+
+ -- Jack Kilian <jack@digilabs.io>  Thu, 19 Jul 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.2.0-1xenial) xenial; urgency=high
+
+  * Fixed low-speed mode turning so it has a continuous turning speed range
+  * Added dependency to generate messages cpp to CMakeLists
+  * updated package.xml to new format
+
+ -- Jack Kilian <jack@digilabs.io>  Tue, 17 Jul 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver (0.1.0-1xenial) xenial; urgency=high
+
+  * first public release for Kinetic
+
+ -- Jack Kilian <jack@digilabs.io>  Tue, 10 Jul 2018 05:00:00 -0000
+
+
