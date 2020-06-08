@@ -1,0 +1,98 @@
+ros-kinetic-rr-openrover-driver-msgs (1.0.0-3xenial) xenial; urgency=high
+
+  * Contributors: padiln
+
+ -- Nick Padilla <nickpadilla@roverrobotics.com>  Mon, 08 Jun 2020 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.8.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nick Padilla <nickpadilla@roverrobotics.com>  Wed, 25 Mar 2020 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.7.4-3xenial) xenial; urgency=high
+
+  * Changed maintainership of all packages
+  * Fixed PID overwrite issue
+
+ -- Nick Padilla <nickpadilla@roverrobotics.com>  Wed, 19 Feb 2020 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.7.3-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Mon, 14 Oct 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.7.2-3xenial) xenial; urgency=high
+
+  * Separated rr_openrover_driver_msgs from the main driver package rr_openrover_driver (formerly rr_openrover_basic)
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Thu, 18 Jul 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.7.1-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Mon, 24 Jun 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.7.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Mon, 13 May 2019 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.6.2-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Wed, 23 Jan 2019 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.6.1-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Thu, 20 Dec 2018 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.6.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Fri, 07 Dec 2018 06:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.5.1-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Thu, 20 Sep 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.5.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Thu, 06 Sep 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.4.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Mon, 23 Jul 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.3.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Thu, 19 Jul 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.2.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Tue, 17 Jul 2018 05:00:00 -0000
+
+ros-kinetic-rr-openrover-driver-msgs (0.1.0-3xenial) xenial; urgency=high
+
+
+
+ -- Nicholas Padilla <padilla@digilabs.io>  Tue, 10 Jul 2018 05:00:00 -0000
+
+
