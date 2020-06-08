@@ -2,10 +2,6 @@
 Changelog for package rr_openrover_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.0 (2020-06-08)
-------------------
-* release to melodic
-
 1.0.0 (2020-06-08)
 ------------------
 * update simulation package version
