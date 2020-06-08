@@ -26,3 +26,8 @@ topics:
   topic   : /managed/auto_dock
   timeout : 0.5
   priority: 10
+- 
+  name    : freedom
+  topic   : /managed/freedom
+  timeout : 0.5
+  priority: 90
