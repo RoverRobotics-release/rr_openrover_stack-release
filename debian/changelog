@@ -1,0 +1,23 @@
+ros-kinetic-rr-openrover-description (1.0.0-2xenial) xenial; urgency=high
+
+  * Merge branch 'develop' into feature/padiln/rviz_gazebo_sim
+  * adding rviz and gazebo simulation to rr_openrover stack
+  * added support for gazebo and rviz simulation for 2wd and 4wd rovers
+  * Contributors: padiln
+
+ -- Nick Padilla <nickpadilla@roverrobotics.com>  Mon, 08 Jun 2020 05:00:00 -0000
+
+ros-kinetic-rr-openrover-description (0.8.0-2xenial) xenial; urgency=high
+
+
+
+ -- Nick Padilla <nickpadilla@roverrobotics.com>  Wed, 25 Mar 2020 05:00:00 -0000
+
+ros-kinetic-rr-openrover-description (0.7.4-2xenial) xenial; urgency=high
+
+  * change Maintainership
+  * Adding description and 4WD code
+
+ -- Nick Padilla <nickpadilla@roverrobotics.com>  Wed, 19 Feb 2020 06:00:00 -0000
+
+
