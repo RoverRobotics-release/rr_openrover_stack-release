@@ -1,0 +1,13 @@
+Source: ros-melodic-rr-openrover-driver
+Section: misc
+Priority: optional
+Maintainer: Nick Padilla <nickpadilla@roverrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-rr-openrover-driver-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf2, ros-melodic-tf2-geometry-msgs
+Homepage: http://ros.org/wiki/rr_openrover_driver
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rr-openrover-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-joy, ros-melodic-message-runtime, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-rr-openrover-driver-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf2, ros-melodic-twist-mux
+Description: Provides an interface between ros and Rover Robotics rover hardware.
+ Inputs to rr_openrover_driver include emergency stop and velocity commands. It outputs diagnostic data such as encoder readings and battery charge.
