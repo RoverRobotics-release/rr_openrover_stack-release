@@ -1,0 +1,13 @@
+Source: ros-kinetic-rr-openrover-stack
+Section: misc
+Priority: optional
+Maintainer: Nick Padilla <nickpadilla@roverrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rr-openrover-stack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rr-control-input-manager, ros-kinetic-rr-openrover-description, ros-kinetic-rr-openrover-driver, ros-kinetic-rr-openrover-driver-msgs, ros-kinetic-rr-openrover-simulation, ros-kinetic-rr-rover-zero-driver
+Description: Packages related to the operation of Rover Robotics rover hardware.
+ This includes a client for interfacing with the hardware (rr_openrover_driver) and a tool for filtering time stamped velocity commands (rr_control_input_manager).
