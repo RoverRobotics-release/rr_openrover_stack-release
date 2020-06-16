@@ -2,8 +2,14 @@
 Changelog for package rr_openrover_stack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.1 (2020-06-15)
+1.1.1 (2020-06-15)
 ------------------
+* add pyserial to package.xml
+* Contributors: padiln
+
+1.1.0 (2020-06-08)
+------------------
+* release to melodic
 
 1.0.0 (2020-06-08)
 ------------------
