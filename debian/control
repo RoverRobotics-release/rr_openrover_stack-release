@@ -1,0 +1,12 @@
+Source: ros-melodic-rr-rover-zero-driver
+Section: misc
+Priority: optional
+Maintainer: nickp <nickp@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), python-serial, ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-python-orocos-kdl, ros-melodic-rospy, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rr-rover-zero-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-serial, ros-melodic-diagnostic-msgs, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-python-orocos-kdl, ros-melodic-rospy, ros-melodic-std-msgs
+Description: The rover_zero_driver package
