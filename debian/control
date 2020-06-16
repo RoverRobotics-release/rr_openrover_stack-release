@@ -1,0 +1,12 @@
+Source: ros-kinetic-rr-rover-zero-driver
+Section: misc
+Priority: optional
+Maintainer: nickp <nickp@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), python-serial, ros-kinetic-catkin, ros-kinetic-diagnostic-msgs, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-python-orocos-kdl, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rr-rover-zero-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-serial, ros-kinetic-diagnostic-msgs, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-python-orocos-kdl, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: The rover_zero_driver package
